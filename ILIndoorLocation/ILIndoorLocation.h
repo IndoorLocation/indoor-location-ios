@@ -9,4 +9,6 @@
 @property (nonatomic, assign) double accuracy;
 @property (nonatomic, strong) NSDate* timestamp;
 
+- (instancetype) initWithLatitude:(double) latitude longitude:(double) longitude floor:(NSNumber*) floor;
+    
 @end
