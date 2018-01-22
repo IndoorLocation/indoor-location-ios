@@ -66,4 +66,8 @@
     }
 }
 
+- (NSString*) getName {
+    return  NSStringFromClass([self class]);
+}
+
 @end
