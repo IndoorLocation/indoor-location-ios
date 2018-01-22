@@ -5,7 +5,6 @@
 
 @interface ILIndoorLocationProvider : NSObject
 
-@property (nonatomic,strong) NSString* name;
 @property (nonatomic,strong) NSMutableArray<id<ILIndoorLocationProviderDelegate>>* delegates;
 
 - (instancetype) init;
@@ -29,5 +28,7 @@
 - (void) stop;
 
 - (BOOL) isStarted;
+
+- (NSString*) getName;
 
 @end
