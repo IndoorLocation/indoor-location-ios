@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-#import "ILIndoorLocation.h"
+@class ILIndoorLocation;
 #import "ILIndoorLocationProviderDelegate.h"
 
 @interface ILIndoorLocationProvider : NSObject
@@ -32,3 +32,4 @@
 - (NSString*) getName;
 
 @end
+

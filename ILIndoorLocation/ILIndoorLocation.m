@@ -9,17 +9,19 @@
     }
     return self;
 }
-    
-- (instancetype) initWithLatitude:(double) latitude longitude:(double) longitude floor:(NSNumber*) floor
-    {
-        self = [super init];
-        if (self) {
-            self.latitude = latitude;
-            self.longitude = longitude;
-            self.floor = floor;
-            self.timestamp = [NSDate date];
-        }
-        return self;
+
+- (instancetype) initWithProvider:(ILIndoorLocationProvider*) provider latitude:(double) latitude longitude:(double) longitude floor:(NSNumber*) floor
+{
+    self = [super init];
+    if (self) {
+        self.providerName = [provider getName];
+        self.latitude = latitude;
+        self.longitude = longitude;
+        self.floor = floor;
+        self.timestamp = [NSDate date];
     }
-    
+    return self;
+}
+
 @end
+

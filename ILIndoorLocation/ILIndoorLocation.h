@@ -1,4 +1,5 @@
 #import <Foundation/Foundation.h>
+#import "ILIndoorLocationProvider.h"
 
 @interface ILIndoorLocation : NSObject
 
@@ -9,6 +10,7 @@
 @property (nonatomic, assign) double accuracy;
 @property (nonatomic, strong) NSDate* timestamp;
 
-- (instancetype) initWithLatitude:(double) latitude longitude:(double) longitude floor:(NSNumber*) floor;
-    
+- (instancetype) initWithProvider:(ILIndoorLocationProvider*) provider latitude:(double) latitude longitude:(double) longitude floor:(NSNumber*) floor;
+
 @end
+
