@@ -1,9 +1,10 @@
 #import <Foundation/Foundation.h>
-#import "ILIndoorLocationProvider.h"
+
+@class ILIndoorLocationProvider;
 
 @interface ILIndoorLocation : NSObject
 
-@property (nonatomic, assign) NSString* providerName;
+@property (nonatomic, strong) NSString* providerName;
 @property (nonatomic, assign) double latitude;
 @property (nonatomic, assign) double longitude;
 @property (nonatomic, strong) NSNumber* floor;

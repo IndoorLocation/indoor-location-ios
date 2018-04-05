@@ -1,4 +1,5 @@
 #import "ILIndoorLocationProvider.h"
+#import "ILIndoorLocationProviderDelegate.h"
 
 @implementation ILIndoorLocationProvider
 
@@ -46,6 +47,7 @@
     for (id<ILIndoorLocationProviderDelegate> providerDelegate in _delegates) {
         [providerDelegate provider:self didUpdateLocation:location];
     }
+    _lastLocation = location;
 }
 
 - (void) dispatchDidFailWithError:(NSError*) error {

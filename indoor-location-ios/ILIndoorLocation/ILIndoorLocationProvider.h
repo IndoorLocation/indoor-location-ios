@@ -1,11 +1,12 @@
 #import <Foundation/Foundation.h>
 
 @class ILIndoorLocation;
-#import "ILIndoorLocationProviderDelegate.h"
+@protocol ILIndoorLocationProviderDelegate;
 
 @interface ILIndoorLocationProvider : NSObject
 
 @property (nonatomic,strong) NSMutableArray<id<ILIndoorLocationProviderDelegate>>* delegates;
+@property (nonatomic,strong) ILIndoorLocation* lastLocation;
 
 - (instancetype) init;
 
