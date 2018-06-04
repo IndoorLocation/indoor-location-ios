@@ -44,10 +44,10 @@
 }
 
 - (void) dispatchDidUpdateLocation:(ILIndoorLocation*) location {
+    _lastLocation = location;
     for (id<ILIndoorLocationProviderDelegate> providerDelegate in _delegates) {
         [providerDelegate provider:self didUpdateLocation:location];
     }
-    _lastLocation = location;
 }
 
 - (void) dispatchDidFailWithError:(NSError*) error {
