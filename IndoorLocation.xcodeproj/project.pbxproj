@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E49F7F412076601D004F2482 /* indoor_location_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = indoor_location_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49F7F412076601D004F2482 /* IndoorLocation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IndoorLocation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49F7F452076601D004F2482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E49F7F502076630E004F2482 /* IndoorLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IndoorLocation.h; path = ILIndoorLocation/IndoorLocation.h; sourceTree = "<group>"; };
 		E49F7F512076630E004F2482 /* ILIndoorLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ILIndoorLocation.m; path = ILIndoorLocation/ILIndoorLocation.m; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		E49F7F422076601D004F2482 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E49F7F412076601D004F2482 /* indoor_location_ios.framework */,
+				E49F7F412076601D004F2482 /* IndoorLocation.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,9 +84,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E49F7F402076601D004F2482 /* indoor-location-ios */ = {
+		E49F7F402076601D004F2482 /* IndoorLocation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E49F7F492076601D004F2482 /* Build configuration list for PBXNativeTarget "indoor-location-ios" */;
+			buildConfigurationList = E49F7F492076601D004F2482 /* Build configuration list for PBXNativeTarget "IndoorLocation" */;
 			buildPhases = (
 				E49F7F3C2076601D004F2482 /* Sources */,
 				E49F7F3D2076601D004F2482 /* Frameworks */,
@@ -97,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = "indoor-location-ios";
+			name = IndoorLocation;
 			productName = "indoor-location-ios";
-			productReference = E49F7F412076601D004F2482 /* indoor_location_ios.framework */;
+			productReference = E49F7F412076601D004F2482 /* IndoorLocation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E49F7F3B2076601D004F2482 /* Build configuration list for PBXProject "indoor-location-ios" */;
+			buildConfigurationList = E49F7F3B2076601D004F2482 /* Build configuration list for PBXProject "IndoorLocation" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,7 +128,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E49F7F402076601D004F2482 /* indoor-location-ios */,
+				E49F7F402076601D004F2482 /* IndoorLocation */,
 			);
 		};
 /* End PBXProject section */
@@ -321,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E49F7F3B2076601D004F2482 /* Build configuration list for PBXProject "indoor-location-ios" */ = {
+		E49F7F3B2076601D004F2482 /* Build configuration list for PBXProject "IndoorLocation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E49F7F472076601D004F2482 /* Debug */,
@@ -330,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E49F7F492076601D004F2482 /* Build configuration list for PBXNativeTarget "indoor-location-ios" */ = {
+		E49F7F492076601D004F2482 /* Build configuration list for PBXNativeTarget "IndoorLocation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E49F7F4A2076601D004F2482 /* Debug */,

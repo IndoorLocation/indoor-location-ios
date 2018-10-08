@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:indoor-location-ios.xcodeproj">
+      location = "self:/Users/etienne/Desktop/iOSRepositories/indoor-location-ios/IndoorLocation.xcodeproj">
    </FileRef>
 </Workspace>
