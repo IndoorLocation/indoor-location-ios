@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "IndoorLocation"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.license      = { :type => 'MIT' }
   s.summary      = "Open source framework to connect any Indoor Location technology"
   s.homepage     = "https://github.com/IndoorLocation/indoor-location-ios"
