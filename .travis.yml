@@ -17,6 +17,3 @@ script:
     git switch -c master &&
     git push -q https://${GITHUB_TOKEN}@github.com/IndoorLocation/indoor-location-ios.git master
   fi;
-env:
-  global:
-  - secure: mdJvza+SmkMhcowwBsufAIzVXRsTnHqKqWtMKWWiuBQLsI03y2kHiYrlURZAq9Ea1OgmtkSxUGLmm1qroMWCVbPBzlDpqMz4vfY8Tvi5P+EiEBctP4P94duG3TVthCKtO//O9JQNB0IUYdJ4MWYYbH7xpQmGnXZYu9Nq2xx/+6UeTknk078RipEAf1/GcJKf2wR8KSdrZ6ZjR4H6L/lWkx75p+0OX87f1dQ8ByYW1bWOdtslM8LQ09NM3LcSSSs/p34H4JQlbNNFjng4A2r4h4bJg6RwXtkcm3dhN/U56UXYGI69pI3OmHu6EEFf5zmWBrsQn9aMHKTnD2z3GrUSu8JttGAzHd4ViuqedY591bZKHVwqPupcCm5qm55MV2hCz4TkZfwEPmYgdyOeHW8cW45eNJtpyUbIVNHc9pnKK8OmoXupbHGNe4HJUf8GxTwVAgLXQH1lpFRwiuh/72nq/3mUxmu7SMc4kfpiSqWS1pMkZ7Fc7oH6lnTptBp9vO1Yr416/05cIsdfOq57P0kiDMf77ijNV5pvL07C7dTzcHhei5RuRzy3dZ7zNs1/vo3HQvQO7lJYY+2OTbuThr0+KJsP44M+xFZqscakF3NzWVURPnP2axj9BDMTIUwOTo0/3e9YeHuyQe4gcpb7HzFVFskX3esHRi3L2XxN+pjwpPk= # GITHUB_TOKEN
