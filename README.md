@@ -1,8 +1,9 @@
-[![Build Status](https://travis-ci.org/IndoorLocation/indoor-location-ios.svg?branch=master)](https://travis-ci.org/IndoorLocation/indoor-location-ios)
+# IndoorLocation core classes for iOS
+
+![Build status](https://img.shields.io/gitlab/pipeline/mapwize/indoor-location-ios-mirror/master)
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/indoorlocation/indoor-location-ios)
 ![Cocoapods](https://img.shields.io/cocoapods/v/IndoorLocation)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-# IndoorLocation core classes for iOS
 
 ## Core classes
 
